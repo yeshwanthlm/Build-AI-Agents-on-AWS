@@ -7,19 +7,11 @@ The agent is capable of searching the web for food/recipes and utilizing **Agent
 ## 📁 Repository Structure
 
 ```text
-AWS-Community-Day-Ahmedabad-2026/
+Build-AI-Agent-on-AWS/
 ├── food_agent_runtime.py       # Core AgentCore Application (Production deployment ready)
 ├── food-agent.ipynb            # Jupyter Notebook demonstrating local execution, memory initialization, & Identity/Policy concepts
 ├── .env                        # Local environment variables
 ├── requirements.txt            # Python dependencies (strands-agents, bedrock-agentcore, ddgs, etc.)
-├── .github/
-│   └── workflows/
-│       └── deploy.yml          # GitHub Actions CI/CD pipeline for executing Terraform
-└── terraform/                  # Infrastructure as Code (IaC) setup
-    ├── main.tf                 # Terraform provider configuration
-    ├── variables.tf            # Deployment variables
-    ├── outputs.tf              # Resource outputs
-    └── iam.tf                  # Least privilege IAM Policies for Agent Execution & Bedrock Memory Access
 ```
 
 ---
@@ -33,6 +25,8 @@ To deploy and test this agent using the **AWS AgentCore Runtime**, follow entire
 Ensure your virtual environment is activated and the necessary toolkits are installed:
 
 ```bash
+# Create your python virtual environment
+python3 -m venv venv
 # Activate your python virtual environment
 source .venv/bin/activate
 
