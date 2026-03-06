@@ -4,6 +4,8 @@ This repository demonstrates how to build and deploy a sophisticated GenAI Food 
 
 The agent is capable of searching the web for food/recipes and utilizing **AgentCore Memory** to persistently remember a user's dietary preferences (like peanut allergies) or favorite cuisines across different sessions.
 
+Presentation Deck: [Build & Deploy AI Agent.pdf](https://github.com/user-attachments/files/25800769/Build.Deploy.AI.Agent.pdf)
+
 ## 📁 Repository Structure
 
 ```text
